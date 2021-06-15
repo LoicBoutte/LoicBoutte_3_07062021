@@ -11,11 +11,18 @@
 }
 
 header{
-
     margin-left: 350px;
 }
 
 h1{
     font-family: "Shrikhand",Arial, Verdana, sans-serif;
     font-size: 100px ;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #353535;
+    color: #fff;
+
 }
