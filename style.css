@@ -1,0 +1,21 @@
+*{
+    display: flex;
+    
+}
+.container 
+{
+    max-width: 1350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+
+    margin-left: 350px;
+}
+
+h1{
+    font-family: "Shrikhand",Arial, Verdana, sans-serif;
+    font-size: 100px ;
+}
