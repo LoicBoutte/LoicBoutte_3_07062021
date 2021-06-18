@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8"  />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Ohmyfood</title>
+	<title>Acceuil - Ohmyfood</title>
 	<link rel="stylesheet" href="style.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
@@ -65,11 +65,11 @@
 	   <!--Restaurants-->
 
 
-	<section class="restaurants">
-		    <div class="titre-restaurant">
-				<h2>Restaurants</h2>
-			</div>
-			<div class="box-restaurants">
+	<section class="restaurants" id="restaurant">
+		    <div class="container">
+				<h2 class="titre-restaurant">Restaurants</h2>
+			
+			    <div class="box-restaurants">
 				<a href="la-palette-du-gout.html">
 					<div class="restaurant-pix"
 					    <div class="restaurant-pix-image">
@@ -83,10 +83,8 @@
 						</div>
 						<div class="heart">
 							<div class="heart-1">
-								<i class=""far fa-heart fa-2x></i>
-							</div>
-							<div class="heart-2">
-								<i class=""far fa-heart fa-2x></i>
+								<i class="like-heart --nobg far fa-heart fa-2x></i>
+								<i class="like-heart --bg far fa-heart fa-2x></i>
 							</div>
 						</div>
 					</div>
@@ -105,10 +103,27 @@
 							</div>
 							<div class="heart">
 								<div class="heart-1">
-									<i class=""far fa-heart fa-2x></i>
+									<i class="like-heart --nobg far fa-heart fa-2x></i>
+									<i class="like-heart --bg far fa-heart fa-2x></i>
 								</div>
-								<div class="heart-2">
-									<i class=""far fa-heart fa-2x></i>
+						</div>
+					</div>
+				</a>
+				<a href="a-la-francaise.html">
+					<div class="restaurant-pix">
+						<div class="restaurant-pix-image">
+							<img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="A la française">
+							<div class="flash-nouveau">Nouveau</div>
+						</div>
+						<div class="restaurant-pix-note">
+							<div class="restaurant-prix-note-nom">
+								<h3>A la française</h3>
+								<p>Cité rouge</p>
+							</div>
+							<div class="heart">
+								<div class="heart-1">
+									<i class="like-heart --nobg far fa-heart fa-2x></i>
+									<i class="like-heart --bg far fa-heart fa-2x></i>
 								</div>
 						</div>
 					</div>
@@ -125,11 +140,9 @@
 							</div>
 							<div class="heart">
 								<div class="heart-1">
-									<i class=""far fa-heart fa-2x></i>
+									<i class="like-heart --nobg far fa-heart fa-2x></i>
+									<i class="like-heart --bg far fa-heart fa-2x></i>
 								</div>
-								<div class="heart-2">
-									<i class=""far fa-heart fa-2x></i>
-							    </div>	
 							</div>
 						</div>
 					</div>
@@ -148,7 +161,9 @@
 
 
 <footer>
+	
 	   <h3 class="footer__logo">ohmyfood</h3>
+	
 	   <a href="#">
 		          <h3><i class="fas fa-ustensils"></i>Proposer un restaurant</h3>
 	   </a>
@@ -158,8 +173,8 @@
 	   <a href="#">
 		          <h3>Mentions légales</h3>
 	   </a>  
-	    
-
+	   <a href="mailto:contact@ohmyfood-mail.com">Contact</a>
+	
 
 </footer>
 </html>

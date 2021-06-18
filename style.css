@@ -2,8 +2,7 @@
 .container {
     max-width: 2560px;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+    position: relative;
     
 }
 h1,
@@ -13,10 +12,55 @@ p{
     font-family: "Roboto", sans-serif;
 }
 
-body {
+body,
+html{
     box-sizing: border-box;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
+@media screen and (min-width: 1800px) {
+    .container{
+        max-width: 1800px;
+        margin: auto;
+    }
+    
+}
+
+.fas {
+    margin-right: 20px;
+}
+
+h1{
+    color: #9356dc;
+}
+
+.chargement{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+    animation: chargement 2s forwards;
+
+}
+
+@keyframes chargement{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        z-index: -10;
+    }
+}
+
+.cercle-chargement{
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #9356dc;
+}
 
 .recherche{
     background-color: #f6f6f6 ;
@@ -68,17 +112,17 @@ img{
 
 
 
-.fas {
-    margin-right: 20px;
-}
+
 /*header*/
 
 header {
     box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
     width: 100%;
     min-width: 320px;
-    padding: 21px 0;
-
+    padding: 1rem $appPadding;
+    position: relative;
+    z-index: 1000;
+}
     .logo {
         display: flex;
         justify-content: center;
@@ -87,8 +131,8 @@ header {
 
         img {
             max-width: 168px;
-        }
-    }
+        
+    
 }
 
 
