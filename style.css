@@ -84,7 +84,36 @@ h1{
 }
 
 .presentations{
-    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 40px 40px;
+    margin-bottom: 50px;
+}
+
+.presentation-book{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.exploration-presentation{
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+    background-image: linear-gradient(#ff79da, #9356dc);
+    transition: background-color 250ms;
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+}
+
+.exploration-presentation:hover{
+    opacity: 0.8;
+    box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -157,10 +186,10 @@ header {
         justify-content: center;
         align-items: center;
         position: relative;
-
+    }
         img {
             max-width: 168px;
-        
+        }
     
 }
 
