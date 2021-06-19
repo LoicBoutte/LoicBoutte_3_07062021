@@ -118,6 +118,68 @@ h1{
 
 
 
+.titre-fonctionnement{
+    margin: 0 0 20px 22px;
+}
+
+.fonction{
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.fonction-choix{
+    margin: 0 20px 20px 40px;
+    font-weight: bold;
+    background-color: #f6f6f6;
+    padding: 30px 50px 30px 18px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    font-family: "Rboto",sans-serif;
+    width: 300px;
+    max-height: 78px;
+}
+
+.fonction-choix:hover{
+    background-color: #f5edff;
+}
+
+.fonction-choix-numero{
+    width: 18px;
+    height: 18px;
+    padding: 4px 4px;
+    border-radius: 50%;
+    background-color: #9356dc;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: -4;
+}
+
+.fonction-choix:hover .fas{
+    color: #9356dc;
+}
+
+.restaurants{
+    background-color: #f6f6f6;
+}
+
+.box-restaurants{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titre-restaurant{
+    padding: 50px 0 10px 22px;
+}
 
 
 .recherche{
