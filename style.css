@@ -181,6 +181,29 @@ h1{
     padding: 50px 0 10px 22px;
 }
 
+.restaurant-pix{
+    border-radius: 20px;
+    border-color: white;
+    margin-bottom: 18px;
+    position: relative;
+    max-width: 280px;
+    min-width: 280px;
+}
+
+@media screen and (min-width: 375px){
+    .box-restaurants{
+        max-width: 330px;
+        min-width: 280px;
+    }
+    
+}
+
+@media screen and (min-width: 650px) {
+    .box-restaurants{
+        margin-right: 25px;
+    }
+    
+}
 
 .recherche{
     background-color: #f6f6f6 ;
