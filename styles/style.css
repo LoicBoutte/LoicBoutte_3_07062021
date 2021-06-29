@@ -84,6 +84,9 @@
 }
 
 
+
+
+
 .container-all {
     max-width: 2560px;  
 }
@@ -341,11 +344,26 @@ h1{
     height: 3px;
     background: #99E2D0;
   }
+
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .card__global__entrees {
+    animation: fadein 2s;
+  }
   
 
   .card__global__entrees {
     animation: fadein 2s;
   }
+
+
+  
   @media screen and (min-width: 1140px) {
     .card__global__entrees {
       margin-right: 10px;
@@ -413,6 +431,12 @@ h1{
       white-space: nowrap;
       overflow: hidden;
     }
+  }
+
+  .card__global__contenu:hover .card__global__contenu__dish__confirmation {
+    margin-right: 0px;
+    min-width: 4rem;
+    transition: margin-right 0.5s;
   }
 
   .card__global__contenu:hover .header_menu {
