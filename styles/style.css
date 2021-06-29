@@ -18,6 +18,26 @@
   animation: loader 3s forwards;
 }
 
+
+@keyframes loader {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.loader__circle {
+  border: 10px solid #F3F3F3;
+  border-top: 10px solid #9356DC;
+  border-bottom: 10px solid #FF79DA;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 3s linear forwards;
+}
+
 .container-all {
     max-width: 2560px;  
 }
