@@ -104,6 +104,12 @@ p{
     font-family: "Roboto", sans-serif;
 }
 
+p{
+  color: grey;
+}
+
+
+
 body{
     box-sizing: border-box;
 }
@@ -167,7 +173,13 @@ h1{
     box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
   }
 
-
+  .presentation .presentation__book{
+    padding-bottom: 20px;
+  }
+  
+  .presentation .presentation__discover{
+    padding-bottom: 20px;
+  }
 
 /*Fonctionnement*/
 .function__title {
