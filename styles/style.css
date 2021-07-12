@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+a:link 
+{ 
+ text-decoration:none; 
+} 
 
 
 /*Loader*/
@@ -260,6 +264,8 @@ h1{
     margin-bottom: 6px;
     color: black;
   }
+ 
+
 
   .restaurants__card .restaurants__card__content .restaurants_card__content__name p{
     color: black;
