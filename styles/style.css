@@ -260,6 +260,10 @@ h1{
     margin-bottom: 6px;
     color: black;
   }
+
+  .restaurants__card .restaurants__card__content .restaurants_card__content__name p{
+    color: black;
+  }
   .restaurants__card .restaurants__card__content .restaurants_card__content__name {
     position: relative;
   }
