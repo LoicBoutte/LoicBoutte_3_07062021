@@ -184,6 +184,7 @@ h1{
 /*Fonctionnement*/
 .function__title {
     margin: 0 0 20px 22px;
+    color: black;
   }
   
   .function {
@@ -454,6 +455,7 @@ h1{
       white-space: nowrap;
       overflow: hidden;
     }
+    
   }
 
   .card__global__contenu:hover .card__global__contenu__dish__confirmation {
@@ -528,6 +530,7 @@ h1{
     font-weight: bold;
     margin-right: 20px;
     width: 25%;
+    position: relative;
   }
   
   .header_menu {
